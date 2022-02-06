@@ -14,6 +14,7 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
@@ -21,7 +22,7 @@ import net.minecraft.world.level.Level;
 
 public abstract class Wand extends ModItem {
     
-    protected Wand( Properties props ) {
+    protected Wand( Item.Properties props ) {
         super( props );
     }
 

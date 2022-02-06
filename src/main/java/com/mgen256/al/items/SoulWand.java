@@ -15,8 +15,8 @@ import net.minecraft.world.level.ClipContext;
 
 public class SoulWand extends Wand {
     
-    private static Properties createProps(){
-        Properties p = new Item.Properties();
+    private static Item.Properties createProps(){
+        var p = new Item.Properties();
         p.setNoRepair();
         p.stacksTo(1);
         p.defaultDurability(1);

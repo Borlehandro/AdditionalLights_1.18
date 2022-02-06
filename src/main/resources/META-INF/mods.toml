@@ -24,6 +24,6 @@ description='''
 [[dependencies.additional_lights]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1,1.18)"
+    versionRange="[1.18, 1.18.1]"
     ordering="NONE"
     side="BOTH"
